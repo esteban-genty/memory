@@ -1,4 +1,4 @@
-# 🧠 Memory Game
+# 🧠 Memory
 
 Un petit jeu Memory réalisé avec **React** et **Vite**. Retourne les cartes, trouve les paires, et entraîne ta mémoire !
 

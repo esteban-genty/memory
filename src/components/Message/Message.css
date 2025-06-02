@@ -1,0 +1,26 @@
+.message {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 20%;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+  z-index: 1000;
+  user-select: none;
+}
+
+.message.show {
+  opacity: 1;
+  pointer-events: auto;
+  animation: pulse 1.5s ease infinite alternate;
+}
+
+

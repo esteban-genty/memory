@@ -4,14 +4,14 @@ import Button from './components/Button/Button';
 import Card from './components/Card/Card';
 
 const images = [
-  'src/assets/emoji_1.png',
-  'src/assets/emoji_2.png',
-  'src/assets/emoji_3.png',
-  'src/assets/emoji_4.png',
-  'src/assets/emoji_1.png',
-  'src/assets/emoji_2.png',
-  'src/assets/emoji_3.png',
-  'src/assets/emoji_4.png'
+  '/assets/emoji_1.png',
+  '/assets/emoji_2.png',
+  '/assets/emoji_3.png',
+  '/assets/emoji_4.png',
+  '/assets/emoji_1.png',
+  '/assets/emoji_2.png',
+  '/assets/emoji_3.png',
+  '/assets/emoji_4.png'
 ];
 
 function shuffleArray(array) {
